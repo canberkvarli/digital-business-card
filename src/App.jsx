@@ -1,10 +1,10 @@
+import Photo from './components/Photo.jsx'
+
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Canberk</h1>
-       </div>
+      <Photo />
     </>
   )
 }
