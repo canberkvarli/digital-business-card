@@ -1,5 +1,5 @@
 import "../stylesheets/info.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 export default function Info() {
   return (
@@ -22,19 +22,30 @@ export default function Info() {
             border: "none",
             padding: "5px 10px",
             borderRadius: "5px",
+            width: "6rem",
           }}
         >
           <a
-            href="https://github.com/canberkvarli"
+            href="mailto:canberkvarli@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#FFFFFF", textDecoration: "none" }}
+            style={{
+              color: "#FFFFFF",
+              textDecoration: "none",
+              position: "relative",
+              bottom: "3px",
+            }}
           >
-            <FaGithub
+            <FaEnvelope
               size={15}
-              style={{ marginRight: "5px", paddingTop: "5px" }}
+              style={{
+                marginRight: "5px",
+                paddingTop: "5px",
+                position: "relative",
+                top: "3px",
+              }}
             />
-            <span style={{ marginBottom: "5px" }}>Github</span>
+            <span style={{ marginBottom: "5px" }}>Email</span>
           </a>
         </button>
 
@@ -45,17 +56,28 @@ export default function Info() {
             border: "none",
             padding: "5px 10px",
             borderRadius: "5px",
+            width: "6rem",
           }}
         >
           <a
             href="https://www.linkedin.com/in/canberkvarli/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#FFFFFF", textDecoration: "none" }}
+            style={{
+              color: "#FFFFFF",
+              textDecoration: "none",
+              position: "relative",
+              bottom: "3px",
+            }}
           >
             <FaLinkedin
               size={15}
-              style={{ marginRight: "5px", paddingTop: "5px" }}
+              style={{
+                marginRight: "5px",
+                paddingTop: "5px",
+                position: "relative",
+                top: "3px",
+              }}
             />
             <span style={{ margin: "10px;" }}>LinkedIn</span>
           </a>
