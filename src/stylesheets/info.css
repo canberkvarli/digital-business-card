@@ -1,0 +1,39 @@
+.info {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.484);
+    flex-direction: column;
+    position: relative;
+    bottom: 4.9rem;
+    color: white;
+    font-family: "inter", sans-serif;
+    font-variation-settings:
+    "slnt" -2;
+    font-size: 20px;
+    font-style: normal;
+
+    h3 {
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
+.alt-title {
+    margin-top: 0.4rem;
+    color: orange;
+    font-size: 11px;
+}
+
+.info a {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: beige;
+    font-size: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}

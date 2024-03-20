@@ -7,7 +7,6 @@ export default function Photo() {
         src={headshot} 
         alt="Headshot of Canberk" 
         width={300} 
-        height={400} 
         style={
             {borderTopLeftRadius: "2%", borderTopRightRadius: "2%"}
             } />
